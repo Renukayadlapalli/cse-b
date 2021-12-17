@@ -1,0 +1,60 @@
+@media only screen and (min-width:320px)  and (max-width:480px)
+.parent{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    flex-wrap:normal;
+    justify-content:center;
+}
+img{
+    width:150px;
+    height:100px;
+    border:200px circle solid maroon;
+    border-radius:50%;
+}
+.parent>div{
+    width:auto;
+    border:3px solid maroon;
+    padding:4%;
+    margin:1%;
+    text-align:center;
+    background-color:peru;
+}
+h1{
+    color:black;
+}
+h2{
+    color:blue;
+    justify-content: center;
+}
+h3{
+    color:orange;
+    justify-self:center;
+}
+}
+h4{
+    color:red;
+}
+h5{
+    color:slateblue;
+}
+button{
+    color:black;
+    border:20px square var(2%);
+    width:50px;
+    background-color:yellowgreen;
+} 
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+.images{
+    display:flex;
+    flex-direction:row;
+}
+.card>div
+/* .parent{
+    display:flex;
+    flex-direction:column;
+}
+.parent>div{
+    width:80%; */
+}
